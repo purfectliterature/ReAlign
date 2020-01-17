@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "ReAlign for Coursemology",
+    "version": "1.1.1",
+    "description": "An experimental fix for Coursemology line numbers misalignment in Chrome and Safari. Made with love by Phillmont.",
+    "content_scripts": [{
+        "css": ["realign.css"], 
+        "matches": ["https://coursemology.org/courses/*/assessments/*/submissions/*/edit"]
+    }]
+}
